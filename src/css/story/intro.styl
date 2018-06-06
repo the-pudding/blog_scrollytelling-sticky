@@ -1,30 +1,36 @@
 .intro
 	margin 0 auto
 	padding 4rem 1rem 1.5rem 1rem
+	max-width 40rem
 
 	&__hed
 		max-width 60rem
 		margin 0 auto
 		padding-top 5rem
-		font-weight 400
-		text-align center
+		font-weight bold
 		set-type-size('xx-large', true)
-		+mq('bp-3')
-			set-type-size('xxx-large', true)
-		+mq('bp-5')
-			set-type-size('xxxx-large', true)
-	
+		+mq('bp-2')
+			set-type-size('xxx-large', true)		
 	&__byline
-		max-width $column-width
-		margin 0 auto
-		padding-top 5rem
-		padding-bottom 1.5rem
-		text-align center
+		set-type-size('small', true)
+	&__date 
 		set-type-size('small', true)
 		
 	&__dek
 		max-width $column-width
 		margin 0 auto
 		padding-top 1.5rem
-		text-align center
+		text-align left
 		set-type-size('medium', true)
+	
+	&__info
+		display flex
+		justify-content space-between
+
+	img
+		display none
+		width 7.5rem
+		// margin 0 auto
+		float right
+		+mq('bp-2')
+			display inline

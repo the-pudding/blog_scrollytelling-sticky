@@ -9,8 +9,13 @@
 	"imgTwitter":
 		"https://pudding.cool/year/month/name/assets/social/social-twitter.jpg",
 	"author": {
-		"name": "Author Name",
-		"url": "https://twitter.com/puddingviz",
-		"twitterHandle": "@puddingviz"
+		"name": "Russell Goldenberg",
+		"url": "https://pudding.cool/author/russell-goldenberg",
+		"twitterHandle": "@codenberg"
+	},
+	"author2": {
+		"name": "Elaina Natario",
+		"url": "https://pudding.cool/author/elaina-natario",
+		"twitterHandle": "@elainanatario"
 	}
 }

@@ -1,0 +1,14 @@
+{{#each copy.sections}}
+<section id='{{id}}'>
+	<div class='prose'>
+		{{#if hed}}
+		<h3 class='prose__hed tk-atlas'>
+			<strong>{{{hed}}}</strong>
+		</h3>
+		{{/if}}
+		{{#each text}}
+		<p>{{{value}}}</p>
+		{{/each}}
+	</div>
+</section>
+{{/each}}
