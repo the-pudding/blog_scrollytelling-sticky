@@ -13,7 +13,7 @@ function updateChart(index) {
 }
 
 function init() {
-	Stickyfill(d3.select('.sticky').node());
+	Stickyfill.add(d3.select('.sticky').node());
 
 	enterView({
 		selector: stepSel.nodes(),
