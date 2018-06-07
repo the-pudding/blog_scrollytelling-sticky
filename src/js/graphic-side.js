@@ -1,5 +1,6 @@
 // D3 is included by globally by default
 import enterView from 'enter-view';
+import Stickyfill from 'stickyfilljs';
 
 const container = d3.select('#scrolly-side');
 const stepSel = container.selectAll('.step');
@@ -12,6 +13,8 @@ function updateChart(index) {
 }
 
 function init() {
+	Stickyfill(d3.select('.sticky').node());
+
 	enterView({
 		selector: stepSel.nodes(),
 		offset: 0.5,

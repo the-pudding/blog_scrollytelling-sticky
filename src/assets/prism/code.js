@@ -10,4 +10,4 @@ enterView({
 		index = Math.max(0, index - 1);
 		updateChart(index);
 	}
-})
+});
