@@ -1,0 +1,54 @@
+#scrolly-overlay .scrolly
+	max-width 60rem
+	margin 3rem auto
+	background-color $off-white
+	padding 1rem
+
+	article
+		padding 0
+		max-width 30rem
+		margin 0 auto
+		position relative
+
+		.step
+			min-height 67vh
+			margin-bottom 1rem
+			&:last-of-type
+				margin-bottom 0
+			&.is-active
+					p
+						background-color teal
+			p
+				margin 0
+				padding 1rem
+				text-align center
+				font-weight 400
+				background-color $gray-dark
+				transition background-color 250ms ease-in-out
+				color $off-white
+				set-type-size(large)
+				
+
+	figure
+		position sticky
+		width 100%
+		height 50vh
+		background $gray
+		margin 0
+		top 25vh
+		left 0
+	
+		.bar-outer
+			position absolute
+			top 50%
+			left 5%
+			transform translateY(-50%)
+			width 90%
+			height 4rem
+			background-color $bg
+		
+		.bar-inner
+			width 10%
+			height 100%
+			transition width 1s ease-in-out
+			background-color goldenrod
