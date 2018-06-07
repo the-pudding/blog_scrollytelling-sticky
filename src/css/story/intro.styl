@@ -1,13 +1,18 @@
 .intro
 	margin 0 auto
-	padding 4rem 1rem 1.5rem 1rem
-	max-width 40rem
+	padding 3rem 1rem 1rem 1rem
+	background-color $primary
+	margin-bottom 4.5rem
+
+	.intro-inner
+		padding 0 1rem
+		max-width $column-width
+		margin 0 auto
 
 	&__hed
-		max-width 60rem
-		margin 0 auto
 		padding-top 5rem
 		font-weight bold
+		margin 0
 		set-type-size('xx-large', true)
 		+mq('bp-2')
 			set-type-size('xxx-large', true)		
@@ -17,20 +22,12 @@
 		set-type-size('small', true)
 		
 	&__dek
-		max-width $column-width
-		margin 0 auto
+		margin 0
 		padding-top 1.5rem
 		text-align left
 		set-type-size('medium', true)
 	
 	&__info
+		margin 0
 		display flex
 		justify-content space-between
-
-	img
-		display none
-		width 7.5rem
-		// margin 0 auto
-		float right
-		+mq('bp-2')
-			display inline

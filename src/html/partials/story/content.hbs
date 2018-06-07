@@ -12,5 +12,8 @@
 		<p>{{{value}}}</p>
 		{{/each}}
 	</div>
+	 {{#ifEquals id 'code-html'}} <pre data-src='assets/prism/code.html'></pre> {{/ifEquals}}
+	 {{#ifEquals id 'code-css'}} <pre data-src='assets/prism/code.css'></pre> {{/ifEquals}}
+	 {{#ifEquals id 'code-js'}} <pre data-src='assets/prism/code.js'></pre> {{/ifEquals}}
 </section>
 {{/each}}

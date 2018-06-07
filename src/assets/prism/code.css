@@ -1,0 +1,8 @@
+article {
+  position: relative;
+}
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
